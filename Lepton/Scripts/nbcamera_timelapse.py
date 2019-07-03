@@ -64,8 +64,8 @@ def main(argv):
             logging.info("Time lapse photo taken")
             printVerbose(verbose, "Time lapse photo taken")
 
-            # Assigning a variable so we can create a photo JPG file that contains the date and time as its name
-            photo_name = get_date + "_" +  get_time + ".jpg"
+            # Assigning a variable so we can create an image file that contains the date and time as its name
+            photo_name = get_date + "_" +  get_time + ".png"
 
             # Using the raspistill library to take a photo. 
             # cmd = "raspistill -t 300 -w 1920 -h 1440 --nopreview -o " + save_location + photo_name
