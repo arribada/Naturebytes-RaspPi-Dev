@@ -71,7 +71,7 @@ def main(argv):
             # cmd = "raspistill -t 300 -w 1920 -h 1440 --nopreview -o " + save_location + photo_name
 
             # Using the pylepton 
-            cmd = "pylepton_capture " + save_location + photo_name
+            cmd = "pylepton_capture -f " + save_location + photo_name
 
             call ([cmd], shell=True)
 
